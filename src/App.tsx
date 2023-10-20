@@ -29,6 +29,7 @@ const App: React.FC = () => {
 
   return (
     <AuthProvider>
+        <ToastContainer />
       <BrowserRouter>
         <div className="flex">
           <div className={`w-64 bg-gray-200 ${isSidebarOpen ? '' : 'hidden'}`}>
